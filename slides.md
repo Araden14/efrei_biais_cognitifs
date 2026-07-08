@@ -9,22 +9,6 @@ transition: slide-left
 mdc: true
 ---
 
-# Petite expérience
-
-<div class="pt-8 opacity-70">
-On va tester quelque chose. Rien à préparer.
-</div>
-
-<!--
-NE PAS annoncer le thème du biais de conformité. Dire juste : "on va faire un petit test rapide, levez la main quand je demande".
-
-AVANT le cours : briefer discrètement 2-3 complices dans la salle. Consigne : à la slide des lignes, ils lèvent la main en premier et avec assurance pour une réponse fausse mais plausible (ex: A au lieu de B), vite et sans hésiter. Tout le monde doit être unanime entre complices.
--->
-
----
-layout: center
----
-
 # Regardez bien la ligne de référence
 
 <div class="flex flex-col items-center justify-center mt-8">
@@ -33,7 +17,11 @@ layout: center
 </div>
 
 <!--
-Laisser 2-3 secondes, passer à la slide suivante.
+NE PAS annoncer le thème du biais de conformité. Dire juste : "on va faire un petit test rapide, levez la main quand je demande".
+
+AVANT le cours : briefer discrètement 2-3 complices dans la salle. Consigne : à la slide des lignes, ils lèvent la main en premier et avec assurance pour la réponse A (fausse mais plausible), vite et sans hésiter. Tout le monde doit être unanime entre complices.
+
+Laisser 2-3 secondes sur cette référence, puis passer à la slide suivante.
 -->
 
 ---
@@ -79,64 +67,24 @@ layout: center
 class: text-center
 ---
 
-# Alors, qu'est-ce qui vient de se passer ?
-
-<!--
-Marquer une pause. Demander au public : "pourquoi certains ont levé la main pour A ?"
-Laisser 2-3 réponses spontanées avant de révéler.
--->
-
----
-layout: center
-class: text-center
----
-
 # C'était un piège
 
-<div class="text-2xl mt-8 opacity-80">
-2-3 personnes dans la salle étaient briefées à l'avance
+<div class="text-xl mt-6 opacity-70">
+2-3 complices ont répondu <b>A</b> avec assurance — la bonne réponse était <b>B</b>
 </div>
 
 <v-click>
 
-<div class="text-xl mt-6 opacity-70">
-Elles ont toutes répondu <b>A</b> avec assurance — alors que la bonne réponse est <b>B</b>, de façon évidente
+<div class="text-3xl mt-10 font-bold">
+Biais de conformité
+</div>
+
+<div class="text-lg mt-2 opacity-70">
+Expérience d'Asch (1951)
 </div>
 
 </v-click>
 
 <!--
-Révéler qui étaient les complices, les remercier.
+Révéler qui étaient les complices, les remercier. Explication volontairement courte — le nom du biais et de l'expérience suffisent, le reste se discute à l'oral si besoin.
 -->
-
----
-layout: center
-class: text-center
----
-
-# Vous venez de vivre l'expérience d'Asch (1951)
-
-<div class="text-xl mt-8 max-w-2xl mx-auto leading-relaxed opacity-80">
-
-Le principe : demander une question à réponse <span v-mark.underline.orange="1">évidente et objective</span>, faire répondre des complices unanimes avant les vrais sujets
-
-</div>
-
-<v-click>
-
-<div class="text-lg mt-8 opacity-70">
-Si la réponse est évidente et que les gens se conforment quand même — ça démontre la puissance du biais de conformité
-</div>
-
-</v-click>
-
----
-layout: statement
----
-
-# ~75%
-
-des sujets d'Asch se sont conformés **au moins une fois**
-à une réponse manifestement fausse
-
-<div class="text-sm opacity-60 mt-4">Asch, 1951</div>
