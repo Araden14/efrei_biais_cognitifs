@@ -44,15 +44,15 @@ layout: center
 
 <div class="flex gap-16 items-end justify-center mt-12">
   <div class="text-center">
-    <div class="h-20 w-3 bg-blue-400 mx-auto"></div>
+    <div class="w-3 bg-blue-400 mx-auto" style="height: 112px"></div>
     <div class="text-2xl mt-2 font-bold">A</div>
   </div>
   <div class="text-center">
-    <div class="h-32 w-3 bg-blue-400 mx-auto"></div>
+    <div class="w-3 bg-blue-400 mx-auto" style="height: 128px"></div>
     <div class="text-2xl mt-2 font-bold">B</div>
   </div>
   <div class="text-center">
-    <div class="h-44 w-3 bg-blue-400 mx-auto"></div>
+    <div class="w-3 bg-blue-400 mx-auto" style="height: 144px"></div>
     <div class="text-2xl mt-2 font-bold">C</div>
   </div>
 </div>
@@ -71,7 +71,7 @@ ANIMATION EN DIRECT — ne rien expliquer avant.
 5. Observer combien de "vrais" élèves suivent les complices sur A plutôt que de répondre B.
 6. Ne rien commenter, ne pas sourire, enchaîner directement sur la slide suivante.
 
-La bonne réponse est B — c'est objectivement évident. C'est ce qui rend le résultat parlant.
+La bonne réponse est B (128px, identique à la référence). A (112px) et C (144px) sont volontairement proches pour que l'œil hésite un peu — mais B reste objectivement et mesurablement la bonne réponse. C'est cette hésitation qui rend la pression des complices efficace.
 -->
 
 ---
