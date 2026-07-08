@@ -1,24 +1,77 @@
 ---
 theme: default
-title: Le biais de conformité — L'expérience d'Asch
+title: Petite expérience
 info: |
   ## L'expérience de conformité d'Asch (1951)
-  Reproduire en classe un classique de psychologie sociale.
+  Piège live puis débrief — reproduire en classe un classique de psychologie sociale.
 class: text-center
 transition: slide-left
 mdc: true
 ---
 
-# Le biais de conformité
-
-## L'expérience d'Asch (1951)
+# Petite expérience
 
 <div class="pt-8 opacity-70">
-Quand le groupe a tort, et qu'on le suit quand même
+On va tester quelque chose. Rien à préparer.
 </div>
 
 <!--
-Accroche : combien d'entre vous pensent qu'ils diraient toujours la vérité même si tout le monde autour dit le contraire ?
+NE PAS annoncer le thème du biais de conformité. Dire juste : "on va faire un petit test rapide, levez la main quand je demande".
+
+AVANT le cours : briefer discrètement 2-3 complices dans la salle. Consigne : à la slide des lignes, ils lèvent la main en premier et avec assurance pour une réponse fausse mais plausible (ex: A au lieu de B), vite et sans hésiter. Tout le monde doit être unanime entre complices.
+-->
+
+---
+layout: center
+---
+
+# Regardez bien la ligne de référence
+
+<div class="flex flex-col items-center justify-center mt-8">
+  <div class="text-sm opacity-60 mb-2">Référence</div>
+  <div class="h-32 w-3 bg-orange-400"></div>
+</div>
+
+<!--
+Laisser 2-3 secondes, passer à la slide suivante.
+-->
+
+---
+layout: center
+---
+
+# Quelle ligne a la même longueur ?
+
+<div class="flex gap-16 items-end justify-center mt-12">
+  <div class="text-center">
+    <div class="h-20 w-3 bg-blue-400 mx-auto"></div>
+    <div class="text-2xl mt-2 font-bold">A</div>
+  </div>
+  <div class="text-center">
+    <div class="h-32 w-3 bg-blue-400 mx-auto"></div>
+    <div class="text-2xl mt-2 font-bold">B</div>
+  </div>
+  <div class="text-center">
+    <div class="h-44 w-3 bg-blue-400 mx-auto"></div>
+    <div class="text-2xl mt-2 font-bold">C</div>
+  </div>
+</div>
+
+<div class="text-center mt-12 text-xl opacity-70">
+Levez la main pour A... pour B... pour C...
+</div>
+
+<!--
+ANIMATION EN DIRECT — ne rien expliquer avant.
+
+1. Demander "qui pense que c'est A ?" en premier.
+2. Les complices lèvent la main vite, ensemble, avec assurance — sur la MAUVAISE réponse (A).
+3. Compter les mains à voix haute, laisser la pression sociale s'installer.
+4. Enchaîner "qui pense B ?" (la vraie réponse est B).
+5. Observer combien de "vrais" élèves suivent les complices sur A plutôt que de répondre B.
+6. Ne rien commenter, ne pas sourire, enchaîner directement sur la slide suivante.
+
+La bonne réponse est B — c'est objectivement évident. C'est ce qui rend le résultat parlant.
 -->
 
 ---
@@ -26,75 +79,56 @@ layout: center
 class: text-center
 ---
 
-# Le principe clé
+# Alors, qu'est-ce qui vient de se passer ?
 
-<div class="text-2xl mt-8 leading-relaxed">
+<!--
+Marquer une pause. Demander au public : "pourquoi certains ont levé la main pour A ?"
+Laisser 2-3 réponses spontanées avant de révéler.
+-->
 
-La question doit avoir une <span v-mark.underline.orange="1">réponse évidente et objective</span>
+---
+layout: center
+class: text-center
+---
 
+# C'était un piège
+
+<div class="text-2xl mt-8 opacity-80">
+2-3 personnes dans la salle étaient briefées à l'avance
 </div>
 
 <v-click>
 
-<div class="text-xl mt-8 opacity-80">
-
-Si la question est ambiguë → se ranger à la majorité est **rationnel**
-
-Si la réponse est évidente et qu'on se conforme quand même →
-on démontre la **puissance du biais**
-
+<div class="text-xl mt-6 opacity-70">
+Elles ont toutes répondu <b>A</b> avec assurance — alors que la bonne réponse est <b>B</b>, de façon évidente
 </div>
 
 </v-click>
 
 <!--
-C'est le point méthodologique le plus important à faire comprendre avant de lancer la démo.
+Révéler qui étaient les complices, les remercier.
 -->
 
 ---
-layout: two-cols-header
+layout: center
+class: text-center
 ---
 
-# Le dispositif original d'Asch
+# Vous venez de vivre l'expérience d'Asch (1951)
 
-::left::
+<div class="text-xl mt-8 max-w-2xl mx-auto leading-relaxed opacity-80">
 
-<div class="pr-4">
-
-1. Affiche une **ligne de référence**
-2. Affiche trois lignes **A, B, C** de longueurs clairement différentes
-3. Demande à voix haute, un par un : « laquelle correspond à la référence ? »
-4. Les **complices** (briefés avant) répondent tous la même mauvaise réponse, avec assurance
-5. Les **2-3 vrais sujets** répondent en dernier
+Le principe : demander une question à réponse <span v-mark.underline.orange="1">évidente et objective</span>, faire répondre des complices unanimes avant les vrais sujets
 
 </div>
 
-::right::
+<v-click>
 
-<div class="flex flex-col items-center justify-center h-full gap-6">
-  <div class="text-center">
-    <div class="text-sm opacity-60 mb-1">Référence</div>
-    <div class="h-24 w-2 bg-orange-400 mx-auto"></div>
-  </div>
-  <div class="flex gap-8 items-end">
-    <div class="text-center">
-      <div class="h-16 w-2 bg-blue-400 mx-auto"></div>
-      <div class="text-sm mt-1">A</div>
-    </div>
-    <div class="text-center">
-      <div class="h-24 w-2 bg-blue-400 mx-auto"></div>
-      <div class="text-sm mt-1">B</div>
-    </div>
-    <div class="text-center">
-      <div class="h-32 w-2 bg-blue-400 mx-auto"></div>
-      <div class="text-sm mt-1">C</div>
-    </div>
-  </div>
+<div class="text-lg mt-8 opacity-70">
+Si la réponse est évidente et que les gens se conforment quand même — ça démontre la puissance du biais de conformité
 </div>
 
-<!--
-La bonne réponse est évidente (ici B) — c'est ce qui rend la conformité spectaculaire quand elle se produit.
--->
+</v-click>
 
 ---
 layout: statement
@@ -102,33 +136,29 @@ layout: statement
 
 # ~75%
 
-des sujets se sont conformés **au moins une fois**
+des sujets d'Asch se sont conformés **au moins une fois**
 à une réponse manifestement fausse
 
 <div class="text-sm opacity-60 mt-4">Asch, 1951</div>
 
 ---
 
-# Variantes adaptées à une classe
+# D'autres façons de piéger un public
 
 <v-clicks>
 
 - 🔢 **Comptage de points/formes** — projette un nuage de points 3 secondes, les complices annoncent tous un nombre trop élevé
 - 🔊 **Comparaison sonore** — « quel son était le plus long ? » — plus ambigu, conformité encore plus forte
-- ✋ **Vote à main levée** — « qui pense que la réponse est B ? » — les complices lèvent la main en premier, massivement et vite. Pression visuelle très efficace
+- ✋ **Vote à main levée** — celle qu'on vient de faire. Les complices lèvent la main en premier, massivement et vite. Pression visuelle très efficace
 - 🗓️ **Question piégée de culture générale** — « Combien de mois ont 28 jours ? » Les complices répondent « 1 » avec assurance (vraie réponse : les 12)
 
 </v-clicks>
-
-<!--
-Choisir une variante selon le temps et le matériel disponible. Le vote à main levée est le plus simple à improviser sans préparation.
--->
 
 ---
 layout: center
 ---
 
-# Conditions pour que ça marche
+# Les conditions pour que ça marche
 
 <div class="grid grid-cols-1 gap-6 mt-6 text-lg">
 
@@ -183,10 +213,6 @@ Message : être celui qui ose dire ce qu'il voit protège tous les autres.
 </div>
 
 </v-click>
-
-<!--
-Révéler ce second résultat après le débrief de la démo en classe, pas avant — c'est la chute de l'exposé.
--->
 
 ---
 layout: end
