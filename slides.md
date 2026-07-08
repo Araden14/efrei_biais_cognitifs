@@ -44,16 +44,16 @@ layout: center
 
 <div class="flex gap-16 items-end justify-center mt-12">
   <div class="text-center">
+    <div class="w-3 bg-blue-400 mx-auto" style="height: 144px"></div>
+    <div class="text-2xl mt-2 font-bold">C</div>
+  </div>
+  <div class="text-center">
     <div class="w-3 bg-blue-400 mx-auto" style="height: 112px"></div>
     <div class="text-2xl mt-2 font-bold">A</div>
   </div>
   <div class="text-center">
     <div class="w-3 bg-blue-400 mx-auto" style="height: 128px"></div>
     <div class="text-2xl mt-2 font-bold">B</div>
-  </div>
-  <div class="text-center">
-    <div class="w-3 bg-blue-400 mx-auto" style="height: 144px"></div>
-    <div class="text-2xl mt-2 font-bold">C</div>
   </div>
 </div>
 
