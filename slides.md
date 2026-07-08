@@ -88,3 +88,55 @@ Expérience d'Asch (1951)
 <!--
 Révéler qui étaient les complices, les remercier. Explication volontairement courte — le nom du biais et de l'expérience suffisent, le reste se discute à l'oral si besoin.
 -->
+
+---
+layout: center
+class: text-center
+---
+
+# Qu'est-ce qu'un biais cognitif ?
+
+<div class="mt-8 text-xl max-w-2xl mx-auto leading-relaxed">
+Un <b>biais cognitif</b> est un schéma de pensée systématique qui dévie du raisonnement logique ou rationnel.
+</div>
+
+<v-click>
+
+<div class="mt-8 text-lg opacity-70 max-w-2xl mx-auto leading-relaxed">
+Ce ne sont pas des erreurs aléatoires — ce sont des <b>raccourcis mentaux</b> (heuristiques) que notre cerveau utilise pour traiter l'information plus vite.
+</div>
+
+</v-click>
+
+<!--
+Insister sur le fait que les biais ne sont pas des défauts de stupidité — ils touchent tout le monde, y compris les experts.
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# Pourquoi en parler ?
+
+<div class="grid grid-cols-3 gap-8 mt-10 text-left max-w-3xl mx-auto">
+  <div class="bg-blue-50 dark:bg-blue-900/30 rounded-xl p-5">
+    <div class="text-3xl mb-2">🧠</div>
+    <div class="font-bold mb-1">+180 biais répertoriés</div>
+    <div class="text-sm opacity-70">ils influencent toutes nos décisions</div>
+  </div>
+  <div class="bg-orange-50 dark:bg-orange-900/30 rounded-xl p-5">
+    <div class="text-3xl mb-2">👁️</div>
+    <div class="font-bold mb-1">Invisibles</div>
+    <div class="text-sm opacity-70">on ne les remarque pas sur le moment</div>
+  </div>
+  <div class="bg-green-50 dark:bg-green-900/30 rounded-xl p-5">
+    <div class="text-3xl mb-2">🎯</div>
+    <div class="font-bold mb-1">Repérables</div>
+    <div class="text-sm opacity-70">les connaître, c'est déjà s'en protéger</div>
+  </div>
+</div>
+
+<!--
+Transition vers la suite du cours : on a déjà vécu un biais (conformité), on va maintenant en explorer d'autres catégories.
+-->
